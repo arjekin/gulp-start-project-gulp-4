@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@font-face {
+  font-family: "Ubuntu-custom";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/ubuntu/ubuntu-regular/ubuntu-regular.eot");
+  src: url("../fonts/ubuntu/ubuntu-regular/ubuntu-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-regular/ubuntu-regular.woff") format("woff"), url("../fonts/ubuntu/ubuntu-regular/ubuntu-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/ubuntu/ubuntu-italic/ubuntu-italic.eot");
+  src: url("../fonts/ubuntu/ubuntu-italic/ubuntu-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-italic/ubuntu-italic.woff") format("woff"), url("../fonts/ubuntu/ubuntu-italic/ubuntu-italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/ubuntu/ubuntu-light/ubuntu-light.eot");
+  src: url("../fonts/ubuntu/ubuntu-light/ubuntu-light.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-light/ubuntu-light.woff") format("woff"), url("../fonts/ubuntu/ubuntu-light/ubuntu-light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/ubuntu/ubuntu-lightitalic/ubuntu-lightitalic.eot");
+  src: url("../fonts/ubuntu/ubuntu-lightitalic/ubuntu-lightitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-lightitalic/ubuntu-lightitalic.woff") format("woff"), url("../fonts/ubuntu/ubuntu-lightitalic/ubuntu-lightitalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/ubuntu/ubuntu-medium/ubuntu-medium.eot");
+  src: url("../fonts/ubuntu/ubuntu-medium/ubuntu-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-medium/ubuntu-medium.woff") format("woff"), url("../fonts/ubuntu/ubuntu-medium/ubuntu-medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/ubuntu/ubuntu-mediumitalic/ubuntu-mediumitalic.eot");
+  src: url("../fonts/ubuntu/ubuntu-mediumitalic/ubuntu-mediumitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-mediumitalic/ubuntu-mediumitalic.woff") format("woff"), url("../fonts/ubuntu/ubuntu-mediumitalic/ubuntu-mediumitalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ubuntu/ubuntu-bold/ubuntu-bold.eot");
+  src: url("../fonts/ubuntu/ubuntu-bold/ubuntu-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-bold/ubuntu-bold.woff") format("woff"), url("../fonts/ubuntu/ubuntu-bold/ubuntu-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ubuntu-custom";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/ubuntu/ubuntu-bolditalic/ubuntu-bolditalic.eot");
+  src: url("../fonts/ubuntu/ubuntu-bolditalic/ubuntu-bolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-bolditalic/ubuntu-bolditalic.woff") format("woff"), url("../fonts/ubuntu/ubuntu-bolditalic/ubuntu-bolditalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Playfairdisplay-custom";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular.eot");
+  src: url("../fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular.woff") format("woff"), url("../fonts/playfairdisplay/playfairdisplay-regular/playfairdisplay-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "playfairdisplay-custom";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/playfairdisplay/playfairdisplay-italic/playfairdisplay-italic.eot");
+  src: url("../fonts/playfairdisplay/playfairdisplay-italic/playfairdisplay-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/playfairdisplay/playfairdisplay-italic/playfairdisplay-italic.woff") format("woff"), url("../fonts/playfairdisplay/playfairdisplay-italic/playfairdisplay-italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "playfairdisplay-custom";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold.eot");
+  src: url("../fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold.woff") format("woff"), url("../fonts/playfairdisplay/playfairdisplay-bold/playfairdisplay-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "playfairdisplay-custom";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/playfairdisplay/playfairdisplay-bolditalic/playfairdisplay-bolditalic.eot");
+  src: url("../fonts/playfairdisplay/playfairdisplay-bolditalic/playfairdisplay-bolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/playfairdisplay/playfairdisplay-bolditalic/playfairdisplay-bolditalic.woff") format("woff"), url("../fonts/playfairdisplay/playfairdisplay-bolditalic/playfairdisplay-bolditalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "playfairdisplay-custom";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black.eot");
+  src: url("../fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black.eot?#iefix") format("embedded-opentype"), url("../fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black.woff") format("woff"), url("../fonts/playfairdisplay/playfairdisplay-black/playfairdisplay-black.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "playfairdisplay-custom";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/playfairdisplay/playfairdisplay-blackitalic/playfairdisplay-blackitalic.eot");
+  src: url("../fonts/playfairdisplay/playfairdisplay-blackitalic/playfairdisplay-blackitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/playfairdisplay/playfairdisplay-blackitalic/playfairdisplay-blackitalic.woff") format("woff"), url("../fonts/playfairdisplay/playfairdisplay-blackitalic/playfairdisplay-blackitalic.ttf") format("truetype"); }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: Playfairdisplay-custom, sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+  color: #626262;
+  background-color: yellow; }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.text-center {
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+h2 {
+  font-size: 30px;
+  font-weight: normal; }
+
+h3 {
+  font-size: 23px;
+  font-weight: normal; }
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: #626262; }
+  a:hover, a:focus {
+    text-decoration: none;
+    text-transform: none;
+    outline: none;
+    outline-offset: 0; }
+
+.title-category {
+  font-family: Ubuntu-custom, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 100%;
+  color: #B4AD9E;
+  text-transform: uppercase; }
+
+.button-container {
+  text-align: center; }
+  .button-container .button-base {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    padding: 20px 32px;
+    line-height: 100%;
+    font-size: 20px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .button-container .button-base:hover, .button-container .button-base:focus {
+      text-decoration: none;
+      outline: none;
+      outline-offset: 0;
+      color: #616161; }
+
+ul.list-zero,
+.list-socials ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.list-socials ul {
+  font-size: 0;
+  line-height: 0; }
+  .list-socials ul li {
+    display: inline-block;
+    margin: 0 7px; }
+    .list-socials ul li a {
+      display: block;
+      font-size: 17px;
+      color: #B4AD9E;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .list-socials ul li:first-child {
+      margin-left: 0; }
+    .list-socials ul li:last-child {
+      margin-right: 0; }
